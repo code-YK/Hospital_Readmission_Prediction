@@ -53,6 +53,7 @@ def train_pipeline(data_path, model, model_type="non-tree", use_smote=True):
         y_proba = pipeline.predict_proba(X_test)[:, 1]
 
     # Step 7: Evaluate
-    evaluate_model(y_test, y_pred, y_proba)
+    results = evaluate_model(y_test, y_pred, y_proba, model_name=model.__class__.__name__)
+    print(results)
 
-    return pipeline
+    return pipeline, results, (y_test, y_pred, y_proba)
