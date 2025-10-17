@@ -15,46 +15,46 @@ The goal is to help hospitals identify **high-risk patients** and take **prevent
 ---
 
 ## 📂 Repository Structure
-e:\Hospital_Readmission_Prediction\
-├── data\
-│   ├── raw\                       # original CSVs (diabetic_data.csv)
-│   └── processed\                 # cleaned / feature-engineered CSVs (preprocessed_data.csv)
-├── notebooks\
-│   ├── 01_data_exploration.ipynb
-│   ├── 02_data_cleaning.ipynb
-│   ├── 03_experiments.ipynb
-│   └── 04_model_training.ipynb
-├── src\
-│   ├── __init__.py
-│   ├── data_preprocessing.py
-│   ├── feature_engineering.py
-│   ├── model_training.py
-│   ├── predict.py
-│   ├── evaluation.py
-│   ├── utils\
-│   │   ├── __init__.py
-│   │   ├── data_loader.py
-│   │   ├── train_pipeline.py
-│   │   ├── evaluater.py
-│   │   ├── visualizer.py
-│   │   ├── model_saver.py
-│   │   └── other_helpers.py
-│   └── preprocess_pipeline.py
-├── models\
-│   ├── logistic_regression_model.pkl
-│   ├── random_forest_model.pkl
-|   ├── decision_tree_model.pkl
-│   ├── random_forest_model.pkl
-│   ├── tuned_random_forest_model.pkl
-|   ├── svm_model.pth
-│   ├── xgb_model.pkl
-│   └── tuned_XGB_model.pkl
-├── reports\
-│   └── model_report.pdf
-|
-├── requirements.txt
-├── README.md
-├── .gitignore
+  e:\Hospital_Readmission_Prediction\
+  ├── data\
+  │   ├── raw\                       # original CSVs (diabetic_data.csv)
+  │   └── processed\                 # cleaned / feature-engineered CSVs (preprocessed_data.csv)
+  ├── notebooks\
+  │   ├── 01_data_exploration.ipynb
+  │   ├── 02_data_cleaning.ipynb
+  │   ├── 03_experiments.ipynb
+  │   └── 04_model_training.ipynb
+  ├── src\
+  │   ├── __init__.py
+  │   ├── data_preprocessing.py
+  │   ├── feature_engineering.py
+  │   ├── model_training.py
+  │   ├── predict.py
+  │   ├── evaluation.py
+  │   ├── utils\
+  │   │   ├── __init__.py
+  │   │   ├── data_loader.py
+  │   │   ├── train_pipeline.py
+  │   │   ├── evaluater.py
+  │   │   ├── visualizer.py
+  │   │   ├── model_saver.py
+  │   │   └── other_helpers.py
+  │   └── preprocess_pipeline.py
+  ├── models\
+  │   ├── logistic_regression_model.pkl
+  │   ├── random_forest_model.pkl
+  |   ├── decision_tree_model.pkl
+  │   ├── random_forest_model.pkl
+  │   ├── tuned_random_forest_model.pkl
+  |   ├── svm_model.pth
+  │   ├── xgb_model.pkl
+  │   └── tuned_XGB_model.pkl
+  ├── reports\
+  │   └── model_report.pdf
+  |
+  ├── requirements.txt
+  ├── README.md
+  ├── .gitignore
 
 
 # 🧭 Key Modules & Scripts
